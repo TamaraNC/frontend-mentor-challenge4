@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+/* Global Styles */
+:root {
+    --blue: hsl(243, 87%, 12%);
+    --des-blue: hsl(238, 22%, 44%);
+    --bright-blue: hsl(224, 93%, 58%);
+    --cyan:hsl(170, 45%, 43%);
+    --light-gray: hsl(0, 0%, 75%);
+    --light-gray-blue: hsl(240, 75%, 98%);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    line-height: 3.5rem;
+}
+p {
+    margin-top: 1rem;
+}
+a {
+    text-decoration: none;
+}
+/* Nav */
+header {
+    /*display: flex;
+    flex-direction: column;*/
+    margin: 4rem 4rem;
+   
+}
+nav {
+    display: flex;
+    flex-direction: column;
+}
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+nav li {
+    margin: 2rem;
+}
+nav a {
+    color: var(--des-blue);
+}
+/* Files Section */
+.files {
+    margin: 0rem 4rem;
+}
+.files__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-files {
+    width: 50%;
+}
+.files__text-content {
+    width: 50%;
+    margin-left: 2rem;
+}
+input {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    width: 17rem;
+    padding: 0.5rem;
+    font-size: 14px;
+    border-radius: 5px;
+}
+button {
+    padding: 0.6rem 3rem;
+    font-size: 14px;
+    background: var(--bright-blue);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+/* Productive Section */
+.productive {
+    padding: 6rem 6rem;
+    background: var(--light-gray-blue);
+    background-image: url("images/bg-curve-desktop.svg");
+}
+.productive__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.productive-img {
+    width: 50%;
+}
+.productive a {
+    padding-top: 1rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid var(--cyan);
+    color: var(--cyan);
+}
+.productive__text-content {
+    margin-right: 2rem;
+}
+.card {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    width: 20rem;
+    line-height: 1.5rem;
+}
+.card__tweet {
+    display: flex;
+    align-items: center;
+}
+.card__tweet img {
+    margin: 1rem 1rem 0 0;
+    width: 20%;
+    border-radius: 50%;
+}
+/* Access Section */
+.access__container {
+    background: var(--des-blue);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 4rem;
+}
+.access__text-content {
+    color: white;
+    width: 40%;
+}
+.email-content {
+    display: flex;
+    flex-direction: column;
+}
+.email-content button {
+    margin-left: 0;
+    margin-top: 1rem;
+    width:65%;
+}
+.email-content input {
+    width: 23rem;
+}
+/* Footer */
+footer {
+    background: var(--blue);
+    text-align: center;
+    padding: 1rem;
+}
+.footer__content {
+    background: var(--blue);
+    padding: 6rem 4rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__content ul {
+    list-style: none;
+    text-align: left;
+}
+.main-info {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
